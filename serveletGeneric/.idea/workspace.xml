@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="461a46f3-b16e-49b5-9633-81cec5eea0d1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIP5QrgRm3Np6dv28ZdSTColCt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/sevletCookies" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="461a46f3-b16e-49b5-9633-81cec5eea0d1" name="Default Changelist" comment="" />
+      <created>1584523450271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584523450271</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584524370853">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state x="484" y="154" width="424" height="484" key="FileChooserDialogImpl/47.27.1319.741@47.27.1319.741" timestamp="1584524370853" />
+    <state width="1273" height="175" key="GridCell.Tab.0.bottom" timestamp="1584523748563">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state width="1273" height="175" key="GridCell.Tab.0.bottom/47.27.1319.741@47.27.1319.741" timestamp="1584523748563" />
+    <state width="1273" height="175" key="GridCell.Tab.0.center" timestamp="1584523748562">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state width="1273" height="175" key="GridCell.Tab.0.center/47.27.1319.741@47.27.1319.741" timestamp="1584523748562" />
+    <state width="1273" height="175" key="GridCell.Tab.0.left" timestamp="1584523748561">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state width="1273" height="175" key="GridCell.Tab.0.left/47.27.1319.741@47.27.1319.741" timestamp="1584523748561" />
+    <state width="1273" height="175" key="GridCell.Tab.0.right" timestamp="1584523748563">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state width="1273" height="175" key="GridCell.Tab.0.right/47.27.1319.741@47.27.1319.741" timestamp="1584523748563" />
+    <state x="47" y="42" width="1309" height="708" key="new project wizard" timestamp="1584524752276">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state x="47" y="42" width="1309" height="708" key="new project wizard/47.27.1319.741@47.27.1319.741" timestamp="1584524752276" />
+  </component>
+</project>

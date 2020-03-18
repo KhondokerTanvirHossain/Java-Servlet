@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:04:03 +0600] "GET /edureka HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:04:03 +0600] "GET /edureka/ HTTP/1.1" 200 380 http-bio-8080-exec-3 19
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:04:03 +0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:04:24 +0600] "POST /edureka/Login HTTP/1.1" 200 35 http-bio-8080-exec-5 11
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:04:31 +0600] "POST /edureka/Login HTTP/1.1" 200 36 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:13:15 +0600] "GET /edureka/ HTTP/1.1" 304 - http-bio-8080-exec-1 19
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:16:01 +0600] "GET /edureka HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:16:01 +0600] "GET /edureka/ HTTP/1.1" 200 380 http-bio-8080-exec-3 18
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:14:16:01 +0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:15:58:16 +0600] "GET /edureka HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:15:58:16 +0600] "GET /edureka/ HTTP/1.1" 304 - http-bio-8080-exec-3 12
+0:0:0:0:0:0:0:1 - - [18/Mar/2020:15:58:16 +0600] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
