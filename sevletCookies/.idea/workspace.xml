@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44ca6e14-07a4-4747-b65e-6d64c8e40599" name="Default Changelist" comment="" />
+    <list default="true" id="44ca6e14-07a4-4747-b65e-6d64c8e40599" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../StudentsMVC/StudentsMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-18" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-18" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,15 +31,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZIPvHF4LiTAKddxYcf44BlxAhe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloServlet" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudentsMVC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,10 +58,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584525648123">
+    <state x="489" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584589430520">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state x="489" y="154" width="424" height="484" key="FileChooserDialogImpl/47.27.1319.741@47.27.1319.741" timestamp="1584525648123" />
+    <state x="489" y="154" width="424" height="484" key="FileChooserDialogImpl/47.27.1319.741@47.27.1319.741" timestamp="1584589430520" />
     <state width="1273" height="175" key="GridCell.Tab.0.bottom" timestamp="1584524299355">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
@@ -67,5 +78,20 @@
       <screen x="47" y="27" width="1319" height="741" />
     </state>
     <state width="1273" height="175" key="GridCell.Tab.0.right/47.27.1319.741@47.27.1319.741" timestamp="1584524299354" />
+    <state x="47" y="42" width="1309" height="708" key="new project wizard" timestamp="1584530903192">
+      <screen x="47" y="27" width="1319" height="741" />
+    </state>
+    <state x="47" y="42" width="1309" height="708" key="new project wizard/47.27.1319.741@47.27.1319.741" timestamp="1584530903192" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/MyServlet2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
