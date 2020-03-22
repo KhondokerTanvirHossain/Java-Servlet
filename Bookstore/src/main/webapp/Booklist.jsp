@@ -15,9 +15,9 @@
     <center>
         <h1>Books Management</h1>
         <h2>
-            <a href="Bookstore/new">Add New Book</a>
+            <a href="new">Add New Book</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/list">List All Books</a>
+            <a href="list">List All Books</a>
 
         </h2>
     </center>
@@ -38,9 +38,9 @@
                                 <td><%=bk.getAuthor() %></td>
                                 <td><%=bk.getPrice() %></td>
                                 <td>
-                                    <a href="/edit?id=<%= bk.getId() %>">Edit</a>
+                                    <a href="/Bookstore/edit?id=<%= bk.getId() %>">Edit</a>
                                     &nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="/delete?id=<%= bk.getId() %>">Delete</a>
+                                    <a href="/Bookstore/delete?id=<%= bk.getId() %>">Delete</a>
                                 </td>
                  </tr>
              <%}%>

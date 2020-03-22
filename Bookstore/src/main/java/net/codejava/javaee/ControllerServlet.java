@@ -36,19 +36,19 @@ public class ControllerServlet extends HttpServlet {
 
         try {
             switch (action) {
-                case "Bookstore/new":
+                case "/new":
                     showNewForm(request, response);
                     break;
-                case "Bookstore/insert":
+                case "/insert":
                     insertBook(request, response);
                     break;
-                case "Bookstore/delete":
+                case "/delete":
                     deleteBook(request, response);
                     break;
-                case "Bookstore/edit":
+                case "/edit":
                     showEditForm(request, response);
                     break;
-                case "Bookstore/update":
+                case "/update":
                     updateBook(request, response);
                     break;
                 default:
@@ -76,6 +76,7 @@ public class ControllerServlet extends HttpServlet {
 
     private void showNewForm(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        System.out.println("Book FOrm");
         RequestDispatcher dispatcher = request.getRequestDispatcher("Bookform.jsp");
         dispatcher.forward(request, response);
     }
@@ -84,7 +85,7 @@ public class ControllerServlet extends HttpServlet {
             throws SQLException, ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         Book existingBook = bookDAO.getBook(id);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("BookForm.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Bookform.jsp");
         request.setAttribute("book", existingBook);
         dispatcher.forward(request, response);
 
@@ -103,7 +104,7 @@ public class ControllerServlet extends HttpServlet {
 
     private void updateBook(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException {
-        int id = Integer.parseInt(request.getParameter("id"));
+        int id = Integer.parseInt(request.getParameter("id").trim());
         String title = request.getParameter("title");
         String author = request.getParameter("author");
         float price = Float.parseFloat(request.getParameter("price"));
@@ -120,6 +121,5 @@ public class ControllerServlet extends HttpServlet {
         Book book = new Book(id);
         bookDAO.deleteBook(book);
         response.sendRedirect("list");
-
     }
 }
